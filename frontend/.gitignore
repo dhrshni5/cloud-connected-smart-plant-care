@@ -44,3 +44,25 @@ dist/
 .pytest_cache/
 .coverage
 .vscode/
+secrets/
+*firebase-key.json
+.env
+
+# Secrets
+secrets/
+*.json.key
+*firebase-key.json
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# Local environment files
+.DS_Store
